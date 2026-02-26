@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gabni"
+version = "0.1.0"
+description = "Genetic algorithm-based Boolean network inference (GABNI) reproduction"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scikit-learn>=1.2"]
+
+[project.scripts]
+gabni = "gabni.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gabni*"]

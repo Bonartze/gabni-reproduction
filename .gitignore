@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv
+.venv/
+venv/
+
+# Packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Run outputs (keep results/ reference outputs)
+pred_*.csv
+cap21_*.json
+final_*.json
+s*.json
+tmp.json
