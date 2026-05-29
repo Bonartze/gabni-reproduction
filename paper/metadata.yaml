@@ -1,0 +1,69 @@
+# ReScience C submission metadata.
+
+title: "[Re] A Boolean network inference from time-series gene expression data using a genetic algorithm"
+
+authors:
+  - name: "Kirilin, Ivan"
+    orcid:
+    email: "iovkirilin@gmail.com"
+    affiliations: 1,*
+
+affiliations:
+  - code: 1
+    name: "Independent researcher"
+    address: ""
+
+keywords: Boolean network inference, gene regulatory network, genetic algorithm, GABNI, MIBNI, bioinformatics, Python, replication
+
+code:
+  - url: https://github.com/Bonartze/gabni-reproduction
+    doi:
+    swh:
+
+data:
+  - url: https://github.com/Bonartze/gabni-reproduction/tree/main/datasets
+    doi:
+
+replication:
+  - cite: "Barman, S., and Kwon, Y.-K. (2018). A Boolean network inference from time-series gene expression data using a genetic algorithm. Bioinformatics, 34(17), i927-i933. doi:10.1093/bioinformatics/bty584."
+    bib: Barman2018
+    url: https://doi.org/10.1093/bioinformatics/bty584
+    doi: 10.1093/bioinformatics/bty584
+
+abstract: "This article reports a clean-room reimplementation of GABNI, a two-stage Boolean network inference method combining mutual information-based Boolean network inference (MIBNI) with a genetic algorithm (GA). The accompanying Python package implements data loading, optional binarization, MIBNI candidate selection, GA-based regulator search, Boolean transition prediction, edge sign assignment, and structural/dynamical evaluation. On the yeast cell-cycle benchmark distributed with the repository, the reimplementation reproduces perfect one-step dynamics accuracy and obtains a sparse inferred network with TP=15, FP=2, and FN=14 under the directed unsigned structural protocol. These structural counts differ from the original paper's reported yeast result, which we attribute mainly to short time-series under-determination, parsimony pressure in the reimplementation, and missing low-level details of the original implementation. The submission therefore supports the main dynamical claim while documenting the limits of exact structural replication. We provide a clean-room reimplementation of GABNI and reproduce selected results from Barman and Kwon (2018)."
+
+bibliography: bibliography.bib
+
+type: Replication
+domain: Bioinformatics
+language: Python
+
+review:
+  - url: https://github.com/ReScience/submissions/issues/104
+
+contributors:
+  - name:
+    orcid:
+    role: editor
+  - name:
+    orcid:
+    role: reviewer
+  - name:
+    orcid:
+    role: reviewer
+
+dates:
+  - received: March 24, 2026
+    accepted:
+    published:
+
+article:
+  - number:
+    doi:
+    url:
+
+journal:
+  - name: "ReScience C"
+    issn: 2430-3658
+    volume:
+    issue:

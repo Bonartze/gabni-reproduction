@@ -16,6 +16,7 @@ build/
 # OS / editor
 .DS_Store
 .vscode/
+.idea/
 
 # Run outputs (keep results/ reference outputs)
 pred_*.csv
